@@ -1,0 +1,8 @@
+<svg class="background">
+  <text id="time" />
+  <text id="altitude"/>
+  <text id="oxygen"/>
+  <text id="hr"/>
+  <text id="steps"/>
+  <text id="floors"/>
+</svg>

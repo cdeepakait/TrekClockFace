@@ -1,0 +1,57 @@
+.background {
+  viewport-fill: black;
+}
+
+#time {
+  font-size: 70;
+  font-family: System-Bold;
+  text-length: 32;
+  x: 13%;
+  y: 30%;
+  fill: white;
+}
+
+#altitude {
+  font-size: 36;
+  font-family: System-Bold;
+  text-length: 32;
+  x: 17%;
+  y: 43%;
+  fill: green;
+}
+
+#oxygen {
+  font-size: 36;
+  font-family: System-Bold;
+  text-length: 32;
+  x: 17%;
+  y: 55%;
+  fill: green;
+}
+
+#hr {
+  font-size: 30;
+  font-family: System-Bold;
+  text-length: 32;
+  x: 17%;
+  y: 65%;
+  fill: white;
+}
+
+#steps {
+  font-size: 30;
+  font-family: System-Bold;
+  text-length: 32;
+  x: 17%;
+  y: 75%;
+  fill: white;
+}
+
+#floors {
+  font-size: 30;
+  font-family: System-Bold;
+  text-length: 32;
+  x: 17%;
+  y: 85%;
+  fill: white;
+}

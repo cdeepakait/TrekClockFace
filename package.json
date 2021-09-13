@@ -1,0 +1,37 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "6.0.2",
+    "@fitbit/sdk-cli": "^1.7.3",
+    "display": "^0.2.0"
+  },
+  "fitbit": {
+    "appUUID": "705113b4-ac37-46b2-8968-4d6301d724f7",
+    "appType": "clockface",
+    "appDisplayName": "Clock",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [
+      "access_heart_rate",
+      "access_user_profile",
+      "access_activity"
+    ],
+    "buildTargets": [
+      "atlas",
+      "vulcan"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "Clock"
+      }
+    },
+    "defaultLanguage": "en-US"
+  },
+  "dependencies": {
+    "barometer": "^1.0.0",
+    "clock": "^1.0.2",
+    "document": "^0.4.7"
+  },
+  "scripts": {
+    "build": "fitbit-build"
+  }
+}
